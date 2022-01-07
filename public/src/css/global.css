@@ -1,4 +1,6 @@
- * {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -56,7 +58,6 @@ a {
 .boxes{
  display: flex;
  flex-direction: column;
- border: 2px solid; 
  height: 20%;
 }
 
@@ -67,14 +68,141 @@ a {
   background-color: #0F125E;
 }
 
+.fa-angle-left{
+  color: #ffffff;
+  position: absolute;
+  left: 30rem;
+  top: 6rem;
+}
+
+.fa-circle{
+  color: #344EAC;
+  position: absolute;
+  left: 27.5rem;
+  top: 4.5rem;
+}
+
+#profile{
+  height: 15rem;
+  width: 15rem;
+  position: absolute;
+  left: 7rem;
+  bottom: 60%;
+}
+
+#name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 3px;
+}
+
+.heading1{
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 10rem;
+  top: 31rem;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.heading2{
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 10rem;  
+  top: 35.5rem;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+#task{
+  height: 1.9rem;
+  position: absolute;
+  top: 43rem;
+  left: 11rem;
+}
+#taskpara{
+  font-size: 1.5rem;
+  color: #ffffff;
+  position: absolute;
+  top: 43rem;
+  left: 15rem;
+  font-family: 'Inter', sans-serif;
+}
+
+#category{
+  height: 1.9rem;
+  width: 1.8rem;
+  position: absolute;
+  top: 47rem;
+  left: 10.8rem;
+}
+#catepara{
+  font-size: 1.5rem;
+  color: #ffffff;
+  position: absolute;
+  top: 47rem;
+  left: 15rem;
+  font-family: 'Inter', sans-serif;
+}
+
+#schedule{
+  height: 1.9rem;
+  width: 1.8rem;
+  position: absolute;
+  top: 51rem;
+  left: 10.8rem;
+}
+#schepara{
+  font-size: 1.5rem;
+  color: #ffffff;
+  position: absolute;
+  top: 51rem;
+  left: 15rem;
+  font-family: 'Inter', sans-serif;
+}
+
+#last{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#curve{
+  width: 20rem;
+  position: absolute;
+  top: 54rem;
+  left: 8rem;
+}
+
+#para{
+  font-size: 1.5rem;
+  color: #344EAC;
+  position: absolute;
+  bottom: 7.5rem;
+  left: 9rem;
+  font-family: 'Inter', sans-serif;
+}
+
+#subhead{
+  color: #ffffff;
+  font-size: 1.8rem;
+  position: absolute;
+  bottom: 5rem;
+  left: 9rem;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 2px;
+}
 
 
-
-
-
-
-
-
+.sideBox{
+  width: 75%;
+  height: 715px;
+  background-color: #344FA1;
+}
 
 
 
