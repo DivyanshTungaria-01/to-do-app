@@ -1,7 +1,6 @@
 .main{
     display: flex;
     flex-direction: row;
-    /* border: 2px solid red; */
     height: 100vh;
   }
   
@@ -12,7 +11,6 @@
     background-color: #0F125E;
     height: 100%;
     width: 25%;
-    /* border: 3px solid yellow; */
   }
 
   .sideBox{
@@ -20,11 +18,9 @@
     height: 100%;
     height: 100%;
     background-color: #344FA1;
-    /* border: 3px solid yellow; */
   }
   
   .box1{
-      /* border: 2px solid black; */
       display: flex;
       justify-content: flex-end;
   }
@@ -54,12 +50,10 @@
     margin: 2.5rem auto 4rem 7rem;
     color: #ffffff;
     font-size: 1.5rem;
-    /* border: 2px solid red; */
   } 
   
   .task{
       display: flex;
-      /* border: 2px solid cyan; */
       margin-bottom: 2rem;
   }
   .task img{
@@ -75,7 +69,6 @@
   }
 
   .category{
-      /* border: 2px solid palevioletred; */
       display: flex;
       margin-bottom: 2rem;
   } 
@@ -92,7 +85,6 @@
   }
 
   .schedule{
-    /* border: 2px solid greenyellow; */
     display: flex;
     margin-bottom: 1rem;
   } 
@@ -109,15 +101,9 @@
   }
 
 
-
-
-  
-  
   #last{
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    /* align-items: center;   */
   }
   
   #curve{  
@@ -140,6 +126,38 @@
     letter-spacing: 2px;
   }
   
+  .top{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .headpara{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 2rem;
+    border: 2px solid greenyellow;
+  }
+
+  .sideheading{
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 2rem auto 5rem 3rem;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .sidepara{
+    margin-left: 3rem;
+    font-size: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    color: #94ABFF;
+  }
+
+  .clock{
+    border: 2px solid red;
+    width: 40%;
+  }
+
   @media (max-height: 1300px){
     #profile{
       height: 25rem;
