@@ -1,0 +1,167 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    height: 100vh;
+  }
+  
+  .nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #0F125E;
+    height: 100%;
+    width: 25%;
+    /* border: 3px solid yellow; */
+  }
+
+  .sideBox{
+    width: 75%;
+    height: 100%;
+    height: 100%;
+    background-color: #344FA1;
+    /* border: 3px solid yellow; */
+  }
+  
+  .box1{
+      /* border: 2px solid black; */
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .angle{
+      margin: 2rem;
+      border: 0.4rem solid #344fa1; 
+      height: 7.5rem;
+      width: 7.5rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+  }
+  
+  .profilebox{
+      /* border: 2px solid white; */
+  }
+
+  #profile{
+      margin-left: 6rem;
+      height: 15rem;
+      width: 15rem;
+  }
+  
+  .nameborder{
+      /* border: 2px solid yellow; */
+  }
+
+   #name{
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 3px;
+    margin: 2.5rem auto 4rem 7rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+    /* border: 2px solid red; */
+  } 
+  
+  #paras{
+      /* border: 10px solid white; */
+  }
+  
+  .task{
+      display: flex;
+      /* border: 2px solid cyan; */
+      margin-bottom: 2rem;
+  }
+  .task img{
+      margin-left: 10rem;
+      height: 2.4rem;
+      width: 2rem;
+  }
+  #taskpara{
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .category{
+      /* border: 2px solid palevioletred; */
+      display: flex;
+      margin-bottom: 2rem;
+  } 
+  .category img{
+    margin-left: 10rem;
+    height: 2.4rem;
+    width: 2rem;
+  }
+  #catepara{
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .schedule{
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    margin-bottom: 1rem;
+  } 
+  .schedule img{
+    margin-left: 10rem;
+    height: 2.4rem;
+    width: 2rem;
+  }
+  #schepara{
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-left: 3rem;
+    font-family: 'Inter', sans-serif;
+  }
+
+
+
+
+  
+  
+  #last{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;   */
+  }
+  
+  #curve{  
+    width: 30rem;
+    margin-left: 3rem; 
+  }
+  
+  #para{
+    font-size: 1.5rem;
+    color: #344EAC;
+    margin-left: 5rem;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  #subhead{
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-left: 5rem;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  @media (max-height: 1300px){
+    #profile{
+      height: 25rem;
+      width: 25rem;
+    }  
+  }
+
+  @media (max-height: 900px){
+    #profile{
+      height: 15rem;
+      width: 15rem;
+    }
+  }
+  
