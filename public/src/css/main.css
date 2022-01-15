@@ -40,10 +40,6 @@
       justify-content: center;
       color: #ffffff;
   }
-  
-  .profilebox{
-      /* border: 2px solid white; */
-  }
 
   #profile{
       margin-left: 6rem;
@@ -51,9 +47,6 @@
       width: 15rem;
   }
   
-  .nameborder{
-      /* border: 2px solid yellow; */
-  }
 
    #name{
     font-family: 'Inter', sans-serif;
@@ -63,10 +56,6 @@
     font-size: 1.5rem;
     /* border: 2px solid red; */
   } 
-  
-  #paras{
-      /* border: 10px solid white; */
-  }
   
   .task{
       display: flex;
