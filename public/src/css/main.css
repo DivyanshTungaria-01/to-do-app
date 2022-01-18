@@ -289,6 +289,16 @@
     flex-direction: row;
     margin-bottom: 3rem;
   }
+
+  .bottomboxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    width: 85%;
+    padding-left: 6rem; 
+  }
+
   .box1{
     display: flex;
     flex-direction: row;
@@ -297,17 +307,32 @@
     width: 42rem;
     height: 8rem;
     background-color: #0F125E;
-    margin-left: 6rem;
-    border-radius: 25px;  
+    border-radius: 25px; 
+    margin: 2rem 0;
   }
 
-  .checkbox1 {
+  .checkbox1,.checked {
     height: 4rem;
     width: 4rem;
-    border: 3px solid #C11BCF;
     border-radius: 50%;
-    background-image: url(public\src\images\icons\checkmark.png);
+    /* background-image: url(public\src\images\icons\checkmark.png); */
     background-position: center;
+    cursor: pointer;
+  }
+
+  .checked{
+    background: url('../images/icons/checkmark.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .box1:nth-child(2n) .checkbox1 {
+    border: 3px solid #C11BCF;
+  }
+
+  .box1:nth-child(2n-1) .checkbox1{
+    border: 3px solid #1e8cf1;
   }
 
   .boxpara{
@@ -317,25 +342,11 @@
 
   }
 
-  .box2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 42rem;
-    height: 8rem;
-    background-color: #0F125E;
-    border-radius: 25px;
-    margin-left: 10rem;
+  .strike{
+    text-decoration: line-through;
   }
 
-  .checkbox2 {
-    height: 4rem;
-    width: 4rem;
-    border: 3px solid #1E8CF1;
-    border-radius: 50%;
-    
-  }
+  
 
   @media (max-height: 1300px){
     #profile{

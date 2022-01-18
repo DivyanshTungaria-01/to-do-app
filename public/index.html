@@ -133,8 +133,7 @@
                 <div class="bottompara">
                     <p>TODAY'S TASKS<p>
                 </div>
-                <div class="bottomboxes">
-                    <div class="row1">
+                <div class="bottomboxes">        
                         <div class="box1">
                             <div class="checkbox1">
 
@@ -143,16 +142,6 @@
                                 <p>Daily meeting with team</p>
                             </div>
                         </div>
-                        <div class="box2">
-                            <div class="checkbox2">
-
-                            </div>
-                            <div class="boxpara">
-                                <p>Daily meeting with team</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row1">
                         <div class="box1">
                             <div class="checkbox1">
 
@@ -161,16 +150,6 @@
                                 <p>Daily meeting with team</p>
                             </div>
                         </div>
-                        <div class="box2">
-                            <div class="checkbox2">
-
-                            </div>
-                            <div class="boxpara">
-                                <p>Daily meeting with team</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row1">
                         <div class="box1">
                             <div class="checkbox1">
 
@@ -179,16 +158,6 @@
                                 <p>Daily meeting with team</p>
                             </div>
                         </div>
-                        <div class="box2">
-                            <div class="checkbox2">
-
-                            </div>
-                            <div class="boxpara">
-                                <p>Daily meeting with team</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row1">
                         <div class="box1">
                             <div class="checkbox1">
 
@@ -197,16 +166,6 @@
                                 <p>Daily meeting with team</p>
                             </div>
                         </div>
-                        <div class="box2">
-                            <div class="checkbox2">
-
-                            </div>
-                            <div class="boxpara">
-                                <p>Daily meeting with team</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row1">
                         <div class="box1">
                             <div class="checkbox1">
 
@@ -215,18 +174,24 @@
                                 <p>Daily meeting with team</p>
                             </div>
                         </div>
-                        <div class="box2">
-                            <div class="checkbox2">
-
-                            </div>
-                            <div class="boxpara">
-                                <p>Daily meeting with team</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script>
+        const checkboxes = document.querySelectorAll('.checkbox1')
+        const content = document.querySelectorAll('.boxpara')
+        // console.log(content)
+        checkboxes.forEach(function(checkbox,i){
+            checkbox.addEventListener('click',function(){
+                checkbox.classList.toggle('checked');
+                checkbox.classList.toggle('checkbox1');
+                content[i].childNodes[1].classList.toggle('strike');
+                
+            })
+            
+        })
+    </script>
 </body>
 </html>
