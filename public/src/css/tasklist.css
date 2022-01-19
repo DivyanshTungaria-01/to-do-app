@@ -1,4 +1,3 @@
-
 .main{
     display: flex;
     flex-direction: row;
@@ -163,140 +162,6 @@
     width: 40%;
   }
 
-  .middle{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    overflow-x: scroll;
-  }
-
-  .middle::-webkit-scrollbar{
-    display: none;
-  }
-
-  .task1{
-    width: 20%; 
-    height: 12rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    margin-top: 2rem;
-    padding: 2rem;
-    background-color: #0F125E;
-    border-radius: 25px;
-    /* border: 2px solid red; */
-  }
-  .task1 p{
-    font-size: 1rem;
-    color: #A6B8FB;
-    font-family: 'Inter', sans-serif;
-  }
-  .task1sub h4{
-    color: #ffffff;
-    font-size: 3rem;
-    font-family: 'Inter', sans-serif;
-  }
-  .task1sub{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  /* .line{
-    margin-bottom: 2rem;
-  } */
-
-
-  .task2{
-    width: 20%; 
-    height: 12rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    margin-top: 2rem;
-    padding: 2rem;
-    background-color: #0F125E;
-    border-radius: 25px;
-  }
-  .task2 p{
-    font-size: 1rem;
-    color: #A6B8FB;
-    font-family: 'Inter', sans-serif;
-  }
-  .task2sub h4{
-    color: #ffffff;
-    font-size: 3rem;
-    font-family: 'Inter', sans-serif;
-  }
-  .task2sub{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-
-  .task3{
-    width: 20%; 
-    height: 12rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    margin-top: 2rem;
-    padding: 2rem;
-    background-color: #0F125E;
-    border-radius: 25px;
-  }
-  .task3 p{
-    font-size: 1rem;
-    color: #A6B8FB;
-    font-family: 'Inter', sans-serif;
-  }
-  .task3sub h4{
-    color: #ffffff;
-    font-size: 3rem;
-    font-family: 'Inter', sans-serif;
-    margin-right: 4rem;
-  }
-  .task3sub{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-
-  .task4{
-    width: 20%; 
-    height: 12rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    margin-top: 2rem;
-    padding: 2rem;
-    background-color: #0F125E;
-    border-radius: 25px;
-  }
-  .task4 p{
-    font-size: 1rem;
-    color: #A6B8FB;
-    font-family: 'Inter', sans-serif;
-  }
-  .task4sub h4{
-    color: #ffffff;
-    font-size: 3rem;
-    font-family: 'Inter', sans-serif;
-    margin-right: 4rem;
-  }
-  .task4sub{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .line{
-    border-top: 2px solid #344EAC;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-  }
 
   .bottom{
     position: relative;
@@ -325,7 +190,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    padding: 0rem 3rem;
     width: 42rem;
     height: 8rem;
     background-color: #0F125E;
@@ -339,6 +204,7 @@
     border-radius: 50%;
     background-position: center;
     cursor: pointer;
+    margin-right: 3rem;
   }
 
   .checked{
@@ -391,4 +257,3 @@
       width: 15rem;
     }
   }
-  
